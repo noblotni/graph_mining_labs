@@ -8,7 +8,7 @@ __pycache__/
 *.so
 
 # Data zip files
-data/*.zip
+*.zip
 
 # Distribution / packaging
 .Python
