@@ -2,3 +2,5 @@ networkx
 numpy
 scipy
 matplotlib
+numba
+plotly
