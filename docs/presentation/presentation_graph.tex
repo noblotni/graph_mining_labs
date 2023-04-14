@@ -90,22 +90,22 @@
 				\node[draw, circle] (v21) at (0,2) {$v_2$};
 				\node[draw, circle] (v31) at (1,3) {$v_3$};
 				\node[draw, circle, fill=red!70] (v41) at (1,1) {$v_4$};
-				\node at (-0.7,1) { $\frac{1}{3}$};
-				\node at (-0.7,2) {$\frac{1}{3}$};
-				\node at (0.3,3) {$\frac{1}{3}$};
+				\node at (-0.7,1) { $1$};
+				\node at (-0.7,2) {$1$};
+				\node at (0.3,3) {$1$};
 				\draw (v41) -- (v31);
 				\draw (v41) -- (v21);
 				\draw (v41) -- (v11);
 				\draw[->, line width=2] (0.5,0) -- (0.5,-1.5);
 				\node[draw, circle, fill=red!70] (v12) at (0,-4) {$v_1$};
-				\node[draw, circle, fill=black, text=white] (v22) at (0,-3) {$v_2$};
+				\node[draw, circle, fill=red!70] (v22) at (0,-3) {$v_2$};
 				\node[draw, circle, fill=red!70] (v32) at (1,-2) {$v_3$};
 				\node[draw, circle, fill=red!70] (v42) at (1,-4) {$v_4$};
 				\draw (v42) -- (v32);
 				\draw (v42) -- (v22);
 				\draw (v42) -- (v12);
 			\end{tikzpicture}}
-			\caption{Exemple de cascade. En rouge, les noeuds infectés . En noir, les noeuds sains.}
+			\caption{Exemple de cascade. En rouge, les noeuds infectés . En blanc, les noeuds sains.}
 		\end{figure}
 		\end{column}
 		\end{columns}
