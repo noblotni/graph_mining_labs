@@ -16,5 +16,10 @@ Labs of the graph mining course of Centrale Supélec.
 
 ## Lab 1
 
-- Study of datasets
-- Diffusion processes
+- Study of the datasets of Facebook and LastFM
+- Diffusion processes (The diffusion functions are located in the package `graph_utils`).
+
+## Lab 2
+
+- Study of the Twitch dataset
+- Label propagation
